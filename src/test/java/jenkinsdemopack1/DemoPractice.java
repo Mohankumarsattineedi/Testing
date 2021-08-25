@@ -29,7 +29,7 @@ public class DemoPractice {
 		@Test
 		public void test() throws InterruptedException{
 			
-			driver.findElement(By.id("identifierId")).sendKeys("mohankk6993@gmail.com");
+			driver.findElement(By.id("identifierIds")).sendKeys("mohankk6993@gmail.com");
 			Actions actions = new Actions(driver);
 			actions.sendKeys(Keys.ENTER);
 			Thread.sleep(5000);
