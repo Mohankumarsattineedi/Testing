@@ -29,11 +29,16 @@ public class DemoPractice {
 		@Test
 		public void test() throws InterruptedException{
 			
-			driver.findElement(By.name("a")).sendKeys("New Movies List");
+			driver.findElement(By.name("q")).sendKeys("New Movies List");
 			Actions act = new Actions(driver);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(5000);
-			/*new comments*/
+			/*new comments
+			 * new comment
+			 * 
+			 * 
+			 * 
+			 * */
 			
 		}
 		
